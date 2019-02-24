@@ -38,7 +38,7 @@ smarthost$_counter:
 EOF
 		fi
 		_last_relay="$relay"
-		((_counter++))
+		((++_counter))
 	done
 
 	opts+=(
